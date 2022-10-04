@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3d4c8ee6-d5c3-4604-881d-eb1a3def81ee/AppServices/subscriptions/3d4c8ee6-d5c3-4604-881d-eb1a3def81ee/resourceGroups/MELI/providers/Microsoft.Web/sites/MeliTest-ga",
+    "appService.deploySubpath": "MeliTest\\bin\\Release"
+}

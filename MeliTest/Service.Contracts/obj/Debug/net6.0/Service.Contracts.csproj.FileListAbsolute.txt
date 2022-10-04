@@ -10,3 +10,15 @@ C:\Courses\Net core\Enterviews\Meli\MeliTest\Service.Contracts\obj\Debug\net6.0\
 C:\Courses\Net core\Enterviews\Meli\MeliTest\Service.Contracts\obj\Debug\net6.0\refint\Service.Contracts.dll
 C:\Courses\Net core\Enterviews\Meli\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.pdb
 C:\Courses\Net core\Enterviews\Meli\MeliTest\Service.Contracts\obj\Debug\net6.0\ref\Service.Contracts.dll
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\bin\Debug\net6.0\Service.Contracts.deps.json
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\bin\Debug\net6.0\Service.Contracts.dll
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\bin\Debug\net6.0\Service.Contracts.pdb
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.AssemblyReference.cache
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.AssemblyInfoInputs.cache
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.AssemblyInfo.cs
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.dll
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\refint\Service.Contracts.dll
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\Service.Contracts.pdb
+C:\Users\gustavo.arteaga\Documents\GitHub\MeLi\MeliTest\Service.Contracts\obj\Debug\net6.0\ref\Service.Contracts.dll
