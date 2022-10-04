@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MeliTest</name>
+    </assembly>
+    <members>
+        <member name="M:MeliTest.Controllers.DebtController.GetBalance(Service.Contracts.Requests.DebtRequest)">
+            <summary>
+            Get the balance of the loans
+            </summary>
+            <param name="debtRequest">Parameter that contains the debt information</param>
+            <returns>LoanResponse</returns>
+            <response code="200">
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="404">
+            <strong>HTTP 404 - Not found.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="422">
+            <strong>HTTP 422 - Unprocessable Entity.</strong>
+            </response>
+            -------------------------------------------------------------------------------------------
+            <response code="500">
+            <strong>Internal Server Error - Unhandled exception in the application.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MeliTest.Controllers.LoanController.LoanRequest(Service.Contracts.Requests.LoanRequest)">
+            <summary>
+            Register a loan application
+            </summary>
+            <param name="loanRequest">Parameter that contains the loan information</param>
+            <returns>LoanResponse</returns>
+            <response code="200">
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="404">
+            <strong>HTTP 404 - Not found.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="422">
+            <strong>HTTP 422 - Unprocessable Entity.</strong>
+            </response>
+            -------------------------------------------------------------------------------------------
+            <response code="500">
+            <strong>Internal Server Error - Unhandled exception in the application.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MeliTest.Controllers.LoanController.GetLoanList(Service.Contracts.Requests.LoanListRequest)">
+            <summary>
+            Get the list of loans
+            </summary>
+            <param name="loanListRequest">Parameter that contains the loan information</param>
+            <returns>LoanResponse</returns>
+            <response code="200">
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="404">
+            <strong>HTTP 404 - Not found.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="422">
+            <strong>HTTP 422 - Unprocessable Entity.</strong>
+            </response>
+            -------------------------------------------------------------------------------------------
+            <response code="500">
+            <strong>Internal Server Error - Unhandled exception in the application.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MeliTest.Controllers.PaymentController.CreatePayment(Service.Contracts.Requests.PaymentRequest)">
+            <summary>
+            Record a payment
+            </summary>
+            <param name="paymentRequest">Parameter that contains the payment information</param>
+            <returns>LoanResponse</returns>
+            <response code="200">
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="404">
+            <strong>HTTP 404 - Not found.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+            <response code="500">
+            <strong>Internal Server Error - Unhandled exception in the application.</strong>
+            </response>
+            ----------------------------------------------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="T:MeliTest.Middleware.ExceptionHandlerMiddleware">
+            <summary>
+            Middleware for exception handling
+            </summary>
+        </member>
+    </members>
+</doc>

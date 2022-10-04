@@ -1,0 +1,17 @@
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\MeliTest.Service.deps.json
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\MeliTest.Service.dll
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\MeliTest.Service.pdb
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\DAL.dll
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\Service.Contracts.dll
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\DAL.pdb
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\bin\Debug\net6.0\Service.Contracts.pdb
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.csproj.AssemblyReference.cache
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.AssemblyInfoInputs.cache
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.AssemblyInfo.cs
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.csproj.CoreCompileInputs.cache
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.csproj.CopyComplete
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.dll
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\refint\MeliTest.Service.dll
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\MeliTest.Service.pdb
+C:\Courses\Net core\Enterviews\Meli\MeliTest\MeliTest.Service\obj\Debug\net6.0\ref\MeliTest.Service.dll
