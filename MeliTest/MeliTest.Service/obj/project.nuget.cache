@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cu1FGXr5Xd1Kr2rdufgIjOoSnKEh/8sKQwoJNCScXkN/PqBYqE45UuOhzT9BXKR4sJLzYmSZYRvY++gSLK95UQ==",
+  "dgSpecHash": "KKIwsK1/6Rfz7+WbCxQqJyUoBf8truWe5jkLPZ/8Ef0Z0gpwo/2UaapJv6zS/N/yExRQZNK4+WaV0hTTReD/3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gustavo.arteaga\\Documents\\GitHub\\MeLi\\MeliTest\\MeliTest.Service\\MeliTest.Service.csproj",
+  "projectFilePath": "C:\\MeLi\\MeLi\\MeliTest\\MeliTest.Service\\MeliTest.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gustavo.arteaga\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\gustavo.arteaga\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

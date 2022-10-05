@@ -88,7 +88,7 @@ namespace MeliTest.Service.Implementations
 
         #endregion "PaymentService Member Actions"
 
-        #region "Private methods"
+        #region "Public methods"
 
         /// <summary>
         /// Validate Debt
@@ -97,7 +97,7 @@ namespace MeliTest.Service.Implementations
         /// <param name="paymentRequest"></param>
         /// <returns>bool</returns>
         /// <exception cref="DataValidationException"></exception>
-        private bool ValidateDebt(Loan loan)
+        public bool ValidateDebt(Loan loan)
         {
             if (loan == null)
             {
@@ -114,7 +114,7 @@ namespace MeliTest.Service.Implementations
         /// <param name="paymentRequest"></param>
         /// <returns>bool</returns>
         /// <exception cref="DataValidationException"></exception>
-        private bool ValidateAmount(Loan loan, PaymentRequest paymentRequest)
+        public bool ValidateAmount(Loan loan, PaymentRequest paymentRequest)
         {
             if (loan.Paid < paymentRequest.Amount)
             {
@@ -129,7 +129,7 @@ namespace MeliTest.Service.Implementations
         /// <param name="paymentRequest"></param>
         /// <returns>bool</returns>
         /// <exception cref="DataValidationException"></exception>
-        private bool ZeroValueValidation(PaymentRequest paymentRequest)
+        public bool ZeroValueValidation(PaymentRequest paymentRequest)
         {
             if (paymentRequest.Amount <= 0)
             {
@@ -139,7 +139,7 @@ namespace MeliTest.Service.Implementations
             return true;
         }
 
-        #endregion "Private methods"
+        #endregion "Public methods"
 
     }
 }

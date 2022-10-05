@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "MeliTest20221004130813",
+      "defaultValue": "MeliTest20221004153511",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

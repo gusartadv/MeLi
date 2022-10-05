@@ -71,7 +71,7 @@ namespace MeliTest.Service.Implementations
 
         #endregion "DebtService Member Actions"
 
-        #region "Private methods"
+        #region "Public methods"
 
         /// <summary>
         /// Calculate the balance of the list of loans
@@ -79,7 +79,7 @@ namespace MeliTest.Service.Implementations
         /// <param name="loanList"></param>
         /// <param name="DateTo"></param>
         /// <returns>List DebtResponse</returns>
-        private List<DebtResponse> CalculateBalance(List<Loan> loanList, DateTime DateTo)
+        public List<DebtResponse> CalculateBalance(List<Loan> loanList, DateTime DateTo)
         {
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Loan, DebtResponse>());
             var mapper = new Mapper(config);
@@ -106,6 +106,6 @@ namespace MeliTest.Service.Implementations
             
         }
 
-        #endregion "Private methods"
+        #endregion "Public methods"
     }
 }
