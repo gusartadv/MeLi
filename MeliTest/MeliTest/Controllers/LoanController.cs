@@ -83,7 +83,7 @@ namespace MeliTest.Controllers
         {
             var listReponse = new List<LoanListResponse>();
 
-            listReponse = await this.loanService.GetListOfLoans(loanListRequest.DateFrom, loanListRequest.DateTo);
+            listReponse = await this.loanService.GetListOfLoans(loanListRequest);
 
             return listReponse;
         }

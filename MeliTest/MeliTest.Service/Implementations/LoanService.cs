@@ -100,7 +100,7 @@ namespace MeliTest.Service.Implementations
         /// <param name="dateFrom"></param>
         /// <param name="dateTo"></param>
         /// <returns>List LoanListResponse</returns>
-        public async Task<List<LoanListResponse>> GetListOfLoans(DateTime dateFrom, DateTime dateTo)
+        public async Task<List<LoanListResponse>> GetListOfLoans(LoanListRequest loanListRequest)
         {
             var loanList = new List<Loan>();
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Loan, LoanListResponse>());
@@ -108,7 +108,14 @@ namespace MeliTest.Service.Implementations
 
             try
             {
-                loanList = loanContext.Loans.Where(x => x.Date >= dateFrom && x.Date <= dateTo).ToList();
+                if (loanListRequest.Offset <= 0 || loanListRequest.Limit <= 0)
+                {
+                    throw new DataValidationException("The Offset and Limit must be greater than zero.");
+                }
+
+                loanList = loanContext.Loans.Where(x => x.Date >= loanListRequest.DateFrom && x.Date <= loanListRequest.DateTo)
+                                            .Skip(loanListRequest.Offset)
+                                            .Take(loanListRequest.Limit).ToList();
 
                 List<LoanListResponse> loanListResponse = mapper.Map<List<Loan>, List<LoanListResponse>>(loanList);
 

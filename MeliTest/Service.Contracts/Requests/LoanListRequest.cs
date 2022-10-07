@@ -18,5 +18,17 @@ namespace Service.Contracts.Requests
         /// </summary>
         [Required]
         public DateTime DateTo { get; set; }
+
+        /// <summary>
+        /// The number of results
+        /// </summary>
+        [Required]
+        public int Limit { get; set; }
+
+        /// <summary>
+        /// The number of records that need to be skipped
+        /// </summary>
+        [Required]
+        public int Offset { get; set; }
     }
 }

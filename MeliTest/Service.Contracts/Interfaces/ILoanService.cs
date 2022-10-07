@@ -12,15 +12,14 @@ namespace Service.Contracts.Interfaces
         /// Returns the values for the loan
         /// </summary>
         /// <param name="loanRequest"></param>
-        /// <returns></returns>
+        /// <returns>LoanResponse</returns>
         Task<LoanResponse> LoanRequest(LoanRequest loanRequest);
 
         /// <summary>
         /// Get the list of loans
         /// </summary>
-        /// <param name="dateFrom"></param>
-        /// <param name="dateTo"></param>
-        /// <returns></returns>
-        Task<List<LoanListResponse>> GetListOfLoans(DateTime dateFrom, DateTime dateTo);
+        /// <param name="loanListRequest"></param>
+        /// <returns>List<LoanListResponse></returns>
+        Task<List<LoanListResponse>> GetListOfLoans(LoanListRequest loanListRequest);
     }
 }
